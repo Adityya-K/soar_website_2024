@@ -10,9 +10,9 @@ export default function Home() {
         <div>
           <h1 className='text-white text-center font-bold text-9xl'>SOAR 2024</h1>
           <h1 className='text-white text-center font-bold text-xl'>Welcome to SOAR 2024</h1>
-        </div>
-        <div className='pl-[150px] pr-[150px]'>
-          <Image src={camera} height={500} alt='image' />
+          <svg className="absolute" height="150" width="500">
+            <ellipse cx="240" cy="100" rx="220" ry="30" fill="purple" />
+          </svg>
         </div>
       </div>
       <div className='h-screen'>
