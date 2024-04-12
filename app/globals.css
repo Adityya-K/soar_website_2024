@@ -32,3 +32,21 @@
   background-blend-mode: normal, hard-light, normal, darken, normal, normal;
   filter: blur(50px);
 }
+
+
+
+@media (max-width: 1462px) {
+  .blob {
+    top: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .blob-1 {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    height: 300px;
+    width: 500px;
+  }
+}
