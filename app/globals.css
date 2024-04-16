@@ -50,3 +50,10 @@
     width: 500px;
   }
 }
+
+.background {
+  background-color: #161032;
+  opacity: 1;
+  background-image: radial-gradient(#2e2e49 1.6px, #161032 1.6px);
+  background-size: 32px 32px;
+}

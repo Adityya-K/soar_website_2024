@@ -6,7 +6,7 @@ export default function card(props: any) {
     <main>
       {
         props.left ?
-          <div className='bg-white rounded grid grid-cols-5 gap-4 h-[100%]'>
+          <div className='bg-[#161032] rounded border-[1px] border-solid border-white text-white grid grid-cols-5 gap-4 h-[100%]'>
             <div className="col-span-2">
               <Image src={props.img} alt="image" style={{ padding: "10px", overflow: "hidden" }} />
             </div>
@@ -16,7 +16,7 @@ export default function card(props: any) {
             </div>
           </div>
           :
-          <div className='bg-white rounded grid grid-cols-5 gap-4 h-[100%]'>
+          <div className='bg-[#161032] rounded border-[1px] border-solid border-white text-white grid grid-cols-5 gap-4 h-[100%]'>
             <div className='col-span-3 pr-10'>
               <h1 className='text-4xl text-right pt-10'>{props.title}</h1>
               <p className="pt-5 text-right text-xl">{props.body}</p>

@@ -1,4 +1,4 @@
-import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import soar from '../public/soar-logo.png'
 import Image from 'next/image'
 import Card from './components/card'
@@ -17,7 +17,7 @@ export default function Home() {
           <Image src={soar} height={400} alt='image' />
         </div>
       </div>
-      <div className='w-screen bg-[#161032] p-10 grid xl:grid-cols-2 grid-cols-1 grid-rows-3 gap-10'>
+      <div className='w-screen p-10 grid xl:grid-cols-2 grid-cols-1 grid-rows-3 gap-10 background'>
         <div className="xl:w-[100%] w-[80%] relative left-[50%] -translate-x-[50%]">
           <Card title={"Hello"} body={"bye bye"} img={soar} left={false} />
         </div>
@@ -28,7 +28,7 @@ export default function Home() {
           <Card title={"Hello"} body={"bye bye"} img={soar} left={false} />
         </div>
       </div>
-      <div className="h-[200px]"></div>
+      <Footer />
     </main>
   )
 }
