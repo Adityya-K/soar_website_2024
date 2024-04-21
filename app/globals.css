@@ -8,9 +8,11 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+
+
 .blob {
   position: absolute;
-  top: 25%;
+  top: 12%;
   left: 12%;
   width: 40%;
   height: 440px;
@@ -22,7 +24,6 @@
 
 .blob-1 {
   position: absolute;
-  overflow: hidden;
   top: 25%;
   right: -25%;
   width: 40%;
