@@ -13,7 +13,7 @@ export default function Home() {
       <div className='fixed bg-red-700 h-[50px] w-screen z-50 flex items-center justify-center'>
         <p className='text-xl text-white'>SIGN UP HERE: link</p>
       </div> */}
-      <div className='xl:relative xl:top-[20vh]'>
+      <div className='relative xl:top-[20vh]'>
         <div className='blob'></div>
         <div className='blob-1'></div>
       </div>
