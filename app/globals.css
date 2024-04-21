@@ -38,7 +38,7 @@
 
 @media (max-width: 1462px) {
   .blob {
-    top: -20%;
+    top: -30vh;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -46,8 +46,8 @@
   .blob-1 {
     left: 50%;
     transform: translateX(-50%);
-    top: 50%;
-    height: 300px;
+    top: 40vh;
+    height: 400px;
     width: 500px;
   }
 }
