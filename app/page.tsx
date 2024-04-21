@@ -8,16 +8,18 @@ import img3 from '../public/soar-3.png'
 
 export default function Home() {
   return (
-    <main>
+    <main className='overflow-hidden'>
       {/*
       <div className='fixed bg-red-700 h-[50px] w-screen z-50 flex items-center justify-center'>
         <p className='text-xl text-white'>SIGN UP HERE: link</p>
       </div> */}
-      <div className='blob'></div>
-      <div className='blob-1'></div>
+      <div className='xl:relative xl:top-[20vh]'>
+        <div className='blob'></div>
+        <div className='blob-1'></div>
+      </div>
       <div className='bg-[#161032] flex flex-wrap h-screen min-h-[600px] w-screen justify-center items-center'>
         <div className='relative z-25'>
-          <h1 className='text-white text-center xl:pl-10 font-bold text-9xl'>SOAR 2024</h1>
+          <h1 className='text-white text-center lg:pl-10 font-bold text-9xl'>SOAR 2024</h1>
           <h1 className='text-white text-center font-bold text-xl'>Welcome to SOAR 2024</h1>
         </div>
         <div className='relative z-25 sm:pl-[150px] sm:pr-[150px]'>
