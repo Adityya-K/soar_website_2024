@@ -23,6 +23,7 @@ export default function Home() {
           <div></div>
           <div className='pl-2 pr-2'>
             <p>Delegate Applications Out Now! Register to be a SOAR delegate on June 1, 2024!</p>
+            <p>Applications are due May 18, 2024 at 11:59pm.</p>
             <Link href="https://forms.gle/VUNcH1B9aEzKrtYU6" className='underline decoration-sky-300 text-sky-300'><b>Click here to apply!</b></Link>
           </div>
           <div>
