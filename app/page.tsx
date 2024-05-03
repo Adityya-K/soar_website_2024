@@ -1,3 +1,4 @@
+"use client";
 import Footer from './components/Footer'
 import soar from '../public/soar-logo.png'
 import Image from 'next/image'
@@ -5,14 +6,29 @@ import Card from './components/card'
 import img1 from '../public/soar-1.jpg'
 import img2 from '../public/soar-2.png'
 import img3 from '../public/soar-3.png'
+import Link from 'next/link'
+import { IoCloseSharp } from "react-icons/io5";
+import React, { useState } from "react";
 
 export default function Home() {
+  const [isClosed, setIsClosed] = useState(false);
+
+  const closeBanner = () => {
+    setIsClosed(true);
+  };
   return (
     <main className='overflow-hidden'>
-      {/*
-      <div className='fixed bg-red-700 h-[50px] w-screen z-50 flex items-center justify-center'>
-        <p className='text-xl text-white'>SIGN UP HERE: link</p>
-      </div> */}
+      {!isClosed &&
+        <div className='fixed bg-red-900 hover:bg-red-700 w-screen z-50 items-center text-xl text-white flex justify-between text-center pl-6 pr-6 pt-3 pb-3'>
+          <div></div>
+          <div className='pl-2 pr-2'>
+            <p>Delegate Applications Out Now! Register to be a SOAR delegate on June 1, 2024!</p>
+            <Link href="https://forms.gle/VUNcH1B9aEzKrtYU6" className='underline decoration-sky-300 text-sky-300'><b>Click here to apply!</b></Link>
+          </div>
+          <div>
+            <button onClick={closeBanner}><IoCloseSharp className='scale-[200%]' /></button>
+          </div>
+        </div>}
       <div className='relative xl:top-[20vh]'>
         <div className='blob'></div>
         <div className='blob-1'></div>
