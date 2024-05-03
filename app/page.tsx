@@ -52,6 +52,9 @@ export default function Home() {
         <div className="xl:row-start-2 xl:col-start-2 flex">
           <Card title={"Why should students attend SOAR?"} img={img2} left={true}>
             <p>If you want your child to be part of a transformative summer program designed for academic excellence and development, SOAR is the conference to attend. With a focus on personalized attention and collaborative activities, SOAR ensures your child receives individualized support to build confidence and crucial life skills. This unique experience fosters lasting friendships and prepares students for future success, making SOAR the best choice for parents in pursuit of a program that uniquely shapes their child&apos;s growth and potential.</p>
+            <p className='pt-5'>Delegate Applications Out Now! Register to be a SOAR delegate on June 1, 2024!</p>
+            <p>Applications are due May 18, 2024 at 11:59pm.</p>
+            <Link href="https://forms.gle/VUNcH1B9aEzKrtYU6" className='underline decoration-sky-300 text-sky-300'><b>Click here to apply!</b></Link>
           </Card>
         </div>
         <div className="xl:row-start-3 flex">
