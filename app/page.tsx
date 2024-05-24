@@ -63,6 +63,11 @@ export default function Home() {
           </Card>
         </div>
       </div>
+      <div className='flex items-center justify-center background p-10'>
+        <div className='bg-[#161032] rounded-2xl border-[1px] border-solid border-white p-10'>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/wwmHNp9gz8k?si=s9e0MTJZ9fEhol2H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
       <Footer />
     </main>
   )
