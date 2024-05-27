@@ -23,7 +23,7 @@ export default function Home() {
           <div></div>
           <div className='pl-2 pr-2'>
             <p>Delegate Applications Out Now! Register to be a SOAR delegate on June 1, 2024!</p>
-            <p>Applications are due May 26, 2024 at 11:59pm.</p>
+            <p>Applications are due May 30, 2024 at 11:59pm.</p>
             <Link href="https://forms.gle/VUNcH1B9aEzKrtYU6" className='underline decoration-sky-300 text-sky-300'><b>Click here to apply!</b></Link>
           </div>
           <div>
@@ -53,7 +53,7 @@ export default function Home() {
           <Card title={"Why should students attend SOAR?"} img={img2} left={true}>
             <p>If you want your child to be part of a transformative summer program designed for academic excellence and development, SOAR is the conference to attend. With a focus on personalized attention and collaborative activities, SOAR ensures your child receives individualized support to build confidence and crucial life skills. This unique experience fosters lasting friendships and prepares students for future success, making SOAR the best choice for parents in pursuit of a program that uniquely shapes their child&apos;s growth and potential.</p>
             <p className='pt-5'>Delegate Applications Out Now! Register to be a SOAR delegate on June 1, 2024!</p>
-            <p>Applications are due May 26, 2024 at 11:59pm.</p>
+            <p>Applications are due May 30, 2024 at 11:59pm.</p>
             <Link href="https://forms.gle/VUNcH1B9aEzKrtYU6" className='underline decoration-sky-300 text-sky-300'><b>Click here to apply!</b></Link>
           </Card>
         </div>
